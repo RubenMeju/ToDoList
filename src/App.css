@@ -1,0 +1,14 @@
+main {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+h1 {
+  margin-top: 2rem;
+  font-size: 4rem;
+  text-align: center;
+  color: aliceblue;
+}

@@ -1,0 +1,44 @@
+form {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  border-radius: 1rem;
+  overflow: hidden;
+  border: 2px solid white;
+  background-color: white;
+}
+
+.input {
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+}
+.input:focus {
+  background-color: rgb(230, 230, 230);
+}
+.add {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: rgba(251, 86, 7, 0.8);
+  cursor: pointer;
+  color: aliceblue;
+  font-size: 1.2rem;
+}
+
+.add:hover {
+  background-color: rgba(251, 86, 7, 1);
+}
+
+.count {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 6px;
+  margin-right: 6px;
+  color: aliceblue;
+  background-color: #ff006e;
+  border-radius: 50%;
+}

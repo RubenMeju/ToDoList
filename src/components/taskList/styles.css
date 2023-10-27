@@ -1,0 +1,48 @@
+ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 5rem;
+  list-style: none;
+}
+
+@font-face {
+  font-family: Indie;
+  src: url("IndieFlower.ttf");
+}
+
+li {
+  position: relative;
+  width: 240px;
+  height: 250px;
+  padding: 2rem;
+  background-color: #fdfd86;
+  box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.5);
+  font-family: "Indie";
+  overflow: hidden;
+}
+
+li::before {
+  content: "📌";
+  position: absolute;
+  top: 0.5rem;
+  left: 40%;
+  font-size: 24px;
+  line-height: 1;
+  color: #ff0000;
+}
+
+.task {
+  font-size: 2rem;
+}
+
+.yellow {
+  background-color: #fdfd86;
+  transform: rotate(-5deg);
+}
+
+.blue {
+  background-color: #06ad89;
+  transform: rotate(5deg);
+}

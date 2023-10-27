@@ -4,6 +4,10 @@
 
 Esta es una aplicación simple de lista de tareas estilo Post-it que te permite agregar y eliminar tareas. Las tareas se almacenan localmente en tu navegador a través de LocalStorage. Cada nota tiene un límite de 40 caracteres para mantenerlas breves y concisas.
 
+## Demo
+
+Puedes probar el juego en vivo [aquí](https://to-do-list-seven-eosin.vercel.app/).
+
 ## Funcionalidades
 
 - **Agregar Tareas:** Puedes agregar nuevas tareas escribiendo hasta 40 caracteres en el campo de entrada y haciendo clic en el botón "Agregar".
